@@ -13,7 +13,7 @@ This repository contains a Flask application for performing image segmentation u
 ## Features
 
 - Upload `.tif` images with multiple channels.
-- Extracts RGB channels (3, 2, 1) from the 12-channel images.
+- Extracts RGB channels (1,2,3) from the 12-channel images.
 - Preprocesses the image to the required format for the model.
 - Applies a pre-trained U-Net model for image segmentation.
 - Overlays the predicted segmentation mask onto the RGB image.
