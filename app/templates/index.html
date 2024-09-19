@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Segmentation</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Upload a tif Image for Segmentation</h1>
+        <form action="/" method="POST" enctype="multipart/form-data">
+            <input type="file" name="file" class="upload-btn" accept="image/*">
+            <button type="submit" class="submit-btn">Submit</button>
+        </form>
+        {% if filename %}
+        <h2>Result</h2>
+        <img src="{{ url_for('uploads', filename='overlay_' + filename.rsplit('.', 1)[0] + '.png') }}" alt="Prediction">
+        {% endif %}
+
+    </div>
+</body>
+
+</html>
