@@ -44,7 +44,7 @@ Ensure you have the following installed:
 ### Install Dependencies
 Install Packages used in the app (you can find them in he requirments.txt )
 ### Add Your Model 
-Ensure that the U-Net model file model.h5 is placed in the appropriate folder (specified in the code as MODEL_PATH). You can modify the path if necessary in the app.py file.
+Ensure that the segmentation model file model.h5 is placed in the appropriate location in the app directory (specified in the code as MODEL_PATH). You can modify the path if necessary in the app.py file.
 
 ## Usage
 ### Using the terminal after ensuring the correct structure of the app project
