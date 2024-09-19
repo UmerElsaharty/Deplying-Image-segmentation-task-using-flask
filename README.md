@@ -29,7 +29,7 @@ Ensure you have the following installed:
 
 ### Clone the Repository
 ```bash
-git clone https://github.com/your-username/image-segmentation-flask-app.git
+git clone https://github.com/UmerElsaharty/Deplying-Image-segmentation-task-using-flask.git
 cd Deplying-Image-segmentation-task-using-flask
 # Create a virtual environment
 python -m venv venv
